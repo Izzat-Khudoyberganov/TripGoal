@@ -42,11 +42,25 @@
 
     .burger-menu.show span::before {
         transform: rotate(45deg);
+        top: 0;
+    }
+
+    .burger-menu.show span::after {
+        transform: rotate(-45deg);
+        top: 0;
+    }
+
+    /* .burger-menu.show span {
+        background-color: transparent;
+    }
+
+    .burger-menu.show span::before {
+        transform: rotate(45deg);
         bottom: 0;
     }
 
     .burger-menu.show span::after {
         transform: rotate(-45deg);
         top: 0px;
-    }
+    } */
 }
