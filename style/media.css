@@ -1,3 +1,18 @@
+@media (max-width: 993px) {
+    .banner-content {
+        column-gap: 30px;
+    }
+    .banner-info_title {
+        font-size: 50px;
+        line-height: 62px;
+        margin-bottom: 10px;
+    }
+
+    .banner-info_btn {
+        margin-top: 35px;
+    }
+}
+
 @media (max-width: 768px) {
     .header-actions {
         position: absolute;
@@ -50,17 +65,11 @@
         top: 0;
     }
 
-    /* .burger-menu.show span {
-        background-color: transparent;
+    .banner-content {
+        flex-direction: column;
     }
 
-    .burger-menu.show span::before {
-        transform: rotate(45deg);
-        bottom: 0;
+    .banner-content {
+        row-gap: 30px;
     }
-
-    .burger-menu.show span::after {
-        transform: rotate(-45deg);
-        top: 0px;
-    } */
 }

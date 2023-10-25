@@ -49,6 +49,11 @@
     text-decoration: none;
 }
 
+body {
+    overflow-x: hidden;
+    height: 3000px;
+}
+
 .container {
     max-width: 1240px;
     width: 100%;
@@ -61,6 +66,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 button {
@@ -107,6 +113,10 @@ button {
 .page-header {
     padding-block: 27px;
     background-color: var(--secondary);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
 }
 
 .header-logo {
@@ -190,7 +200,7 @@ button {
 /* Banner start */
 
 .banner {
-    padding-top: 50px;
+    padding-block: 150px;
     background-color: var(--secondary);
 }
 
@@ -204,6 +214,8 @@ button {
     max-width: 578px;
     width: 100%;
     position: relative;
+
+    transform: translateX(-100%);
 }
 
 .big-img {
@@ -231,6 +243,15 @@ button {
     bottom: -57px;
 }
 
+.banner-info {
+    transform: translateX(100%);
+}
+
+.banner-item {
+    transition: 1s;
+    opacity: 0;
+}
+
 .banner-info_subtitle {
     margin-bottom: 15px;
 }
@@ -246,9 +267,16 @@ button {
     margin-bottom: 20px;
 }
 
+.banner-info_title::after {
+    content: url(../images/icons/rocket.svg);
+    margin-left: 10px;
+}
+
 .banner-info_btn {
     padding: 20px 46px;
     margin-top: 50px;
 }
 /* Banner end */
 /* Main end */
+
+/* Keyframes */
