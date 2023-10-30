@@ -51,7 +51,6 @@
 
 body {
     overflow-x: hidden;
-    height: 3000px;
 }
 
 .container {
@@ -79,6 +78,14 @@ button {
     font-size: 16px;
     line-height: 18px;
     display: block;
+}
+
+.title {
+    color: var(--blue-dark, #002248);
+    font-family: var(--Al-Medium);
+    font-size: 42px;
+    line-height: 52px;
+    text-transform: capitalize;
 }
 
 .text {
@@ -277,6 +284,72 @@ button {
     margin-top: 50px;
 }
 /* Banner end */
+
+/* Travel start */
+
+.travel {
+    padding-block: 120px;
+}
+
+.travel-info {
+    max-width: 568px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.travel-info_title {
+    margin-block: 10px 20px;
+}
+
+.travel-info_text {
+    text-align: center;
+}
+
+.travel-content {
+    margin-top: 70px;
+    column-gap: 30px;
+}
+
+.content-items {
+    border-radius: var(--border-radius);
+    border: 2px solid var(--secondary);
+    background: var(--light);
+    padding: 74px 33px 70px;
+    text-align: center;
+    transition: var(--transition);
+}
+
+/* .content-items:hover {
+    box-shadow: 10px 10px 10px rgb(69, 68, 68);
+    transform: scale(1.1);
+} */
+
+.content-items_img {
+    display: block;
+    max-width: 140px;
+    min-width: 105px;
+    min-height: 96px;
+    max-height: 115px;
+    margin: 0 auto;
+}
+
+.content-items_title {
+    margin-block: 47px 20px;
+    color: var(--blue-dark, #002248);
+    font-family: var(--RMedium);
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.content-items_text {
+    color: var(--text-color, #697687);
+    font-family: var(--RRegular);
+    font-size: var(--xs);
+    line-height: 28px;
+}
+
+/* Travel end */
 /* Main end */
 
 /* Keyframes */
