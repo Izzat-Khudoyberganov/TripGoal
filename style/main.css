@@ -123,7 +123,7 @@ button {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 10;
+    z-index: 100;
 }
 
 .header-logo {
@@ -320,10 +320,10 @@ button {
     transition: var(--transition);
 }
 
-/* .content-items:hover {
+.content-items:hover {
     box-shadow: 10px 10px 10px rgb(69, 68, 68);
     transform: scale(1.1);
-} */
+}
 
 .content-items_img {
     display: block;
@@ -350,6 +350,122 @@ button {
 }
 
 /* Travel end */
+
+/* Location start */
+
+.location {
+    padding-block: 120px;
+    background-color: var(--secondary);
+}
+
+.location-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.location-nav {
+    position: relative;
+    top: -20px;
+    right: -10px;
+    width: 110px;
+}
+
+.swiper {
+    margin-top: 70px;
+}
+
+.swiper-button-next {
+    background-color: var(--primary);
+    color: var(--light);
+    padding: 17px 20px;
+    border-radius: 5px;
+}
+
+.swiper-button-prev {
+    background-color: var(--primary);
+    color: var(--light);
+    padding: 17px 20px;
+    border-radius: 5px;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    font-size: 16px !important;
+    font-weight: 700;
+}
+
+.swiper-button-disabled {
+    background-color: var(--light);
+    color: var(--text-color);
+}
+
+.info-text {
+    max-width: 538px;
+    width: 100%;
+}
+
+.info-text_title {
+    margin-block: 10px 20px;
+}
+
+.info-text_desc {
+    width: 100%;
+}
+
+.location-slide {
+    border-radius: 10px;
+    border: 6px solid var(--light);
+    background-color: var(--light);
+    position: relative;
+}
+
+.location-slide_img {
+    border-radius: 10px;
+    width: 100%;
+    display: block;
+}
+
+.location-slide_info {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    border-radius: 10px;
+    border: 1px solid #989898;
+    background: rgba(0, 34, 72, 0.3);
+    backdrop-filter: blur(10px);
+    right: 30px;
+    padding: 23px 20px;
+}
+
+.slide-info_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 7px;
+}
+
+.slide-title {
+    color: var(--light);
+    font-family: var(--Al-Medium);
+    font-size: var(--sm);
+    line-height: var(--md);
+}
+
+.location-name {
+    color: var(--light);
+    font-family: var(--RMedium);
+    font-size: var(--xs);
+    line-height: 28px;
+}
+
+.location-price {
+    color: var(--light);
+    font-family: var(--RMedium);
+    font-size: var(--md);
+    line-height: 24px;
+}
+/* Location end */
 /* Main end */
 
 /* Keyframes */
