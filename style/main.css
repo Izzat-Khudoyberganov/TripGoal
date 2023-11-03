@@ -354,7 +354,7 @@ button {
 /* Location start */
 
 .location {
-    padding-block: 120px;
+    padding-block: var(--section-block);
     background-color: var(--secondary);
 }
 
@@ -466,6 +466,112 @@ button {
     line-height: 24px;
 }
 /* Location end */
+
+/* Discovery start */
+
+.discovery {
+    width: 100%;
+    height: 630px;
+    position: relative;
+    transform: translateY(-22px);
+}
+
+.discovery-video {
+    height: 630px;
+}
+
+.discovery-content {
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.video-wrapper {
+    max-width: 905px;
+    width: 100%;
+    height: 100%;
+}
+
+.discovery-video {
+    width: 100%;
+    height: 630px;
+    display: block;
+}
+
+.discovery-info {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    max-width: 1062px;
+    width: 100%;
+    height: 590px;
+    overflow-y: hidden;
+    background-image: url(../images/images/map.png);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 176px;
+}
+
+.discovery-info_wrapper {
+    text-align: left;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    max-width: 462px;
+    width: 100%;
+}
+
+.discovery-subtitle {
+    text-align: left !important;
+    width: max-content;
+}
+
+.discovery-text {
+    text-align: left;
+}
+
+.play {
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    background-color: var(--light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 226px;
+    left: 200px;
+}
+
+.play::before {
+    content: "";
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    background: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+
+.discovery-video {
+    display: block;
+}
+
+.discovery-compas {
+    position: absolute;
+    bottom: -120px;
+    left: 50%;
+}
+
+/* Discovery end */
 /* Main end */
 
 /* Keyframes */
