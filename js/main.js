@@ -36,11 +36,17 @@ video.addEventListener("click", () => {
     }
 });
 
-const swiper = new Swiper(".swiper", {
+var swiper = new Swiper(".swiper", {
     slidesPerView: 3,
     spaceBetween: 47,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
+});
+
+var swiper = new Swiper(".mySwiper2", {
+    slidesPerView: 4,
+    spaceBetween: 50,
+    centeredSlides: true,
 });
