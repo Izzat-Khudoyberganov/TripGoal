@@ -49,4 +49,5 @@ var swiper = new Swiper(".mySwiper2", {
     slidesPerView: 4,
     spaceBetween: 50,
     centeredSlides: true,
+    autoplay: true,
 });
