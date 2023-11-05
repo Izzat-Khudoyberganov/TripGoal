@@ -628,6 +628,38 @@ button {
     border: 10px solid #fff;
 }
 /* Insta end */
+
+/* Contact start */
+
+.contact {
+    padding-block: 50px 100px;
+}
+
+.contact-wrapper {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 40px;
+    background: #f3f8ff;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+.wrapper-info {
+    padding: 60px 0 80px 80px;
+}
+
+.wrapper-info_title {
+    margin-block: 10px 30px;
+}
+
+.wrapper-info_btn {
+    padding: 20px 42px;
+}
+/* Contact end */
 /* Main end */
 
 /* Keyframes */
