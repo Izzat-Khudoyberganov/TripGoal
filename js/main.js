@@ -51,3 +51,21 @@ var swiper = new Swiper(".mySwiper2", {
     centeredSlides: true,
     autoplay: true,
 });
+
+var swiper = new Swiper(".testimonial-swiper", {
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    grabCursor: true,
+    effect: "creative",
+    creativeEffect: {
+        prev: {
+            shadow: true,
+            translate: [0, 0, -400],
+        },
+        next: {
+            translate: ["100%", 0, 0],
+        },
+    },
+});
