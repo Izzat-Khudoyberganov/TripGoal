@@ -50,7 +50,7 @@
 }
 
 body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .container {
@@ -674,7 +674,7 @@ button {
     width: 100%;
 }
 
-.swiper-container {
+.testimonials .swiper-container {
     background-image: url(../images/images/testimonial-bg.png);
     background-repeat: no-repeat;
     width: 100%;
